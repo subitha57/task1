@@ -1,9 +1,9 @@
-.toolbar {
+/*.toolbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #2196F3; /* Blue color, you can change it */
+    background-color: #2196F3; 
     color: white;
   }
   
@@ -14,4 +14,16 @@
   .links {
     display: flex;
     gap: 10px;
+  }*/
+
+  .star-rating {
+    font-size: 24px; 
+    text-align: center;
   }
+  
+  .full-star {
+    color: gold;
+  }
+  
+  .half-star {
+    color: #d3d3d3; }

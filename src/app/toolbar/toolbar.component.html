@@ -1,6 +1,14 @@
-<div class="toolbar">
+<!--<div class="toolbar">
     <div class="title">{{ title }}</div>
     <div class="links">
       <ng-content></ng-content>
     </div>
+  </div>
+  https://github.com/subitha57/task1 -->
+
+  <div class="star-rating">
+    <ng-container *ngFor="let _ of getFullStars(); let i = index">
+      <span class="full-star">&#9733;</span>
+    </ng-container>
+    <span *ngIf="hasHalfStar()" class="half-star">&#9734;&#9733;</span>
   </div>
